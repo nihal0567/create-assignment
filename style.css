@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Shared Some Styles */
+.text-center{
+    text-align: center;
+}
+.btn-primary{
+    width: 135px;
+    height: 48px;
+    background: #3631ab;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+/* Header Section Styles */
+header{
+    background-image: url(Assets/Hero-bg.png);
+    background-image: url(Assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 150px;
+}
+nav a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bold;
+}
+.mainhead{
+    text-align: center;
+    padding-bottom: 152px;
+}
+.mainhead h3{
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    margin: 158px 0 50px;
+}
