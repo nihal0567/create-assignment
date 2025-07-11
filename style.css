@@ -4,7 +4,6 @@
 header,.action-section,.bold,.content-heading,.footer-text{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  
   font-style: normal;
 }
 
@@ -30,6 +29,7 @@ header,.action-section,.bold,.content-heading,.footer-text{
 .btn-primary:hover{
     background: linear-gradient(135deg, #6e8efb, #a777e3);
     transition: all 0.3s ease;
+    color: #382e2e;
 }
 
 /* Header Section Styles */
