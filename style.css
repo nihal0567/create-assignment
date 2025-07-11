@@ -34,7 +34,7 @@ nav{
     align-items: center;
     padding: 50px 150px;
 }
-nav a{
+a{
     text-decoration: none;
 }
 .logo{
@@ -135,6 +135,7 @@ nav a{
     padding: 80px 20px;
     width: 1140px;
     margin: 0 auto;
+
 }
 .content-heading{
    min-width: 550px;
@@ -149,7 +150,7 @@ nav a{
 .contact-form{
     border: none;
 }
-input{
+input,textarea{
     display: block;
     width: 497px;
     padding: 32px 20px;
@@ -157,6 +158,9 @@ input{
     gap: 10px;
     border-radius: 10px;
     border: 1px solid #D6DDED;
+}
+textarea{
+    height: 135px;
 }
 .contact-form label{
     display: block;
@@ -173,7 +177,7 @@ input{
     margin-bottom: 20px;
     border-radius: 6px;
     font-size: 14px;
-    background-color: #FFF;
+    color: #000000;
 }
 .contact-form textarea{
     padding: 32px 20px;
@@ -188,4 +192,19 @@ input{
     font-size: 16px;
     font-weight: 400;
     color: #000000;
+}
+
+/* footer section */
+footer{
+    margin: 104px 0;
+}
+.footer-text{
+    font-size: 100px;
+}
+footer p{
+    color: #8987A1;
+    padding: 10px 12px;
+}
+footer a{
+    padding-right: 20px;
 }
