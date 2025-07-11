@@ -107,6 +107,65 @@ a{
     color: #746667;
 }
 
+/* Feedback Section */
+.feedback-section{
+    margin: 137px;
+
+}
+.feedback-section h2{
+    font-size: 42px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 50px;
+}
+.feedback-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.card{
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+}
+.card img{
+    color: #f5b50a;
+    margin-bottom: 10px;
+}
+.card-title{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.card-text{
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 16px;
+}
+.reviewer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.reviewer img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+.reviewer-details{
+    font-size: 13px;
+    color: #666;
+}
+.reviewer-details span{
+    display: block;
+    font-weight: 500;
+    color: #333;
+}
+
+
 /* Ready-Focus Section */
 .ready-focus{
   padding: 71px;
